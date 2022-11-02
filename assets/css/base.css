@@ -1,0 +1,37 @@
+:root{
+    --background-color:#f6f5f5;
+    --header-color:#fdedf0;
+    --fonts-color:#c84579;
+    --font-color:#c3366f;
+    --icon-color:#f7b8c3;
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --star-gold-color: #FFCE3E;
+    --navbar-height: 34px;
+    --header-height: 120px;
+    --header-sort-bar-height: 46px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.btn{
+    height: 50px;
+    border-radius: 10px ;
+    border: 2px solid var(--white-color);
+    padding: 0 14px;
+    outline: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
